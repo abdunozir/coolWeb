@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--mainFamily: 'Inter';
+	--headingFamily: 'Montserrat';
+	--headingCol: #192252;
+	--textCol: #848fac;
+	--headingWeight: 600;
+	--btnBg: #0e1734;
+}
+body {
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+.btn {
+	background-color: var(--btnBg);
+	padding: 16px 32px;
+	font-weight: 500;
+	font-family: var(--mainFamily);
+	color: #fff;
+	font-size: 16px;
+}
+.container {
+	width: 1270px;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+.norway-box {
+	width: 100%;
+	height: 736px;
+	justify-content: center;
+	gap: 126px;
+}
+.norway-img {
+	width: 384px;
+	height: 576px;
+}
+.norway-box__h2 {
+	width: 690px;
+	font-size: 36px;
+	color: var(--headingCol);
+	font-family: var(--headingFamily);
+	margin-bottom: 24px;
+}
+.norway-box__txt1 {
+	width: 584px;
+	font-size: 18px;
+	color: var(--textCol);
+	font-family: var(--mainFamily);
+	margin-bottom: 16px;
+}
+.norway-box__txt2 {
+	width: 584px;
+	font-size: 18px;
+	color: var(--textCol);
+	font-family: var(--mainFamily);
+    margin-bottom: 32px;
+}
+.norway-box__btn {
+    text-decoration: none;
+}
